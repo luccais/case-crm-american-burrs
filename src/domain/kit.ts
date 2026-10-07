@@ -10,6 +10,8 @@
  * Dinheiro em centavos inteiros (DECISOES.md, decisão 8). Função pura: o preço e o estoque
  * chegam já lidos do ERP.
  */
+import { formatarBRL } from "./formatar";
+
 export const MIN_UNIDADES_POR_ALUNO = 8;
 
 export type TipoBroca = "DIAMANTADA" | "CARBIDE" | "OUTRO";
@@ -57,10 +59,6 @@ export interface ResultadoKit {
   unidadesPorAluno: number;
   custoPorAlunoCentavos: number;
   custoTotalCentavos: number;
-}
-
-export function formatarBRL(centavos: number): string {
-  return (centavos / 100).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 }
 
 export function validarKit(entrada: EntradaKit): ResultadoKit {
