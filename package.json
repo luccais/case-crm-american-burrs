@@ -1,0 +1,20 @@
+{
+  "name": "case-crm-american-burrs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reconstrução fictícia do farol de clientes e CRM de kits da American Burrs",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
