@@ -1,9 +1,9 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { betaZodOutputFormat } from "@anthropic-ai/sdk/helpers/beta/zod";
+import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { type ClienteLLM, ErroLLM } from "@/domain/briefing/gerar";
 import { BriefingFormatoSchema } from "@/domain/briefing/schema";
 
-export const MODELO_PADRAO = "claude-opus-5-5";
+export const MODELO_PADRAO = "claude-sonnet-5-5";
 
 /**
  * Adaptador da Claude API para o gerador de briefing.
@@ -11,7 +11,7 @@ export const MODELO_PADRAO = "claude-opus-5-5";
  * - A chave vem só do ambiente (ANTHROPIC_API_KEY); sem chave, devolve null e o gerador usa o template.
  * - maxRetries: 0 no SDK: quem conta as tentativas é o gerarBriefing (DECISOES.md, decisão 6).
  * - Saída estruturada com o schema de forma; as regras de texto são validadas no domínio.
- * - fallbacks "default": se o modelo recusar por política, a API tenta outro modelo na mesma chamada.
+ * - Recusa do modelo vira erro não-retentável: vai direto ao template.
  */
 export function criarClienteClaude(env: NodeJS.ProcessEnv = process.env): ClienteLLM | null {
   if (!env.ANTHROPIC_API_KEY) return null;
@@ -20,15 +20,13 @@ export function criarClienteClaude(env: NodeJS.ProcessEnv = process.env): Client
 
   return async ({ system, user, signal }) => {
     try {
-      const resposta = await client.beta.messages.parse(
+      const resposta = await client.messages.parse(
         {
           model,
           max_tokens: 16_000,
           system,
           messages: [{ role: "user", content: user }],
-          output_config: { effort: "medium", format: betaZodOutputFormat(BriefingFormatoSchema) },
-          betas: ["server-side-fallback-2026-07-01"],
-          fallbacks: "default",
+          output_config: { effort: "medium", format: zodOutputFormat(BriefingFormatoSchema) },
         },
         { signal },
       );

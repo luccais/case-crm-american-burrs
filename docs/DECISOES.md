@@ -101,11 +101,10 @@ Detalhes da implementação (`src/domain/briefing/gerar.ts`, `src/infra/anthropi
   adiciona latência.
 - O timeout é por tentativa e aborta a requisição HTTP (`AbortSignal`), para não deixar uma
   chamada órfã consumindo tokens.
-- O modelo vem de `CLAUDE_MODEL`, com padrão `claude-opus-5-5`. A saída usa structured output com
+- O modelo vem de `CLAUDE_MODEL`, com padrão `claude-sonnet-5-5`. A saída usa structured output com
   o schema de forma (zod). As regras de texto (palavras, pergunta, desconto) são validadas no
   domínio, porque refinements não viram JSON Schema.
-- Com `fallbacks: "default"` (beta), uma recusa por política é refeita pela própria API em outro
-  modelo, na mesma chamada. Se ainda assim recusar, entra o template.
+- Nenhum recurso beta da API é usado. Uma recusa do modelo por política vai direto ao template.
 
 **Custo assumido:** se a checagem de número inventado rodasse em runtime, falsos positivos
 mandariam briefings bons para o fallback. Por isso ela fica no eval, e o vendedor revisa tudo.
