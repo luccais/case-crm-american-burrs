@@ -1,0 +1,423 @@
+[
+  {
+    "codparc": 1001,
+    "nome": "Faculdade de Odontologia Vale do Ipê",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "contatoNome": "Renata Moura",
+    "vendedor": "Carlos Andrade",
+    "farol": "VERMELHO",
+    "diasSemCompra": 61,
+    "ultimoPedido": {
+      "nunota": 50100,
+      "data": "2026-08-06",
+      "valorCentavos": 1843250
+    },
+    "pedidos12m": 5,
+    "valor12mCentavos": 7215000,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Carbide esférica 2"
+    ]
+  },
+  {
+    "codparc": 1002,
+    "nome": "Instituto Superior de Saúde Bucal Serra Azul",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "contatoNome": "Paulo Henrique Lima",
+    "vendedor": "Carlos Andrade",
+    "farol": "VERMELHO",
+    "diasSemCompra": 74,
+    "ultimoPedido": {
+      "nunota": 50137,
+      "data": "2026-07-24",
+      "valorCentavos": 962000
+    },
+    "pedidos12m": 3,
+    "valor12mCentavos": 2410500,
+    "produtosFrequentes": [
+      "Diamantada tronco-cônica 3216",
+      "Carbide 245"
+    ]
+  },
+  {
+    "codparc": 1003,
+    "nome": "Centro Universitário Rio das Garças",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "contatoNome": null,
+    "vendedor": "Fernanda Rocha",
+    "farol": "VERMELHO",
+    "diasSemCompra": 90,
+    "ultimoPedido": {
+      "nunota": 50174,
+      "data": "2026-07-08",
+      "valorCentavos": 3120480
+    },
+    "pedidos12m": 8,
+    "valor12mCentavos": 15880300,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Diamantada cilíndrica 2200",
+      "Carbide tronco-cônica 702"
+    ]
+  },
+  {
+    "codparc": 1004,
+    "nome": "Faculdade Integrada Litoral Norte",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "contatoNome": "Aline Prado",
+    "vendedor": "Fernanda Rocha",
+    "farol": "PRETO",
+    "diasSemCompra": 91,
+    "ultimoPedido": {
+      "nunota": 50211,
+      "data": "2026-07-07",
+      "valorCentavos": 455900
+    },
+    "pedidos12m": 1,
+    "valor12mCentavos": 455900,
+    "produtosFrequentes": [
+      "Carbide esférica 2"
+    ]
+  },
+  {
+    "codparc": 1005,
+    "nome": "Escola de Odontologia Monte Claro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "contatoNome": "Márcio Teixeira",
+    "vendedor": "Bruno Siqueira",
+    "farol": "PRETO",
+    "diasSemCompra": 103,
+    "ultimoPedido": {
+      "nunota": 50248,
+      "data": "2026-06-25",
+      "valorCentavos": 2007710
+    },
+    "pedidos12m": 4,
+    "valor12mCentavos": 6330000,
+    "produtosFrequentes": [
+      "Diamantada tronco-cônica 3216",
+      "Carbide 245",
+      "Mandril para peça de mão"
+    ]
+  },
+  {
+    "codparc": 1006,
+    "nome": "Universidade Comunitária do Vale Verde",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "contatoNome": "Juliana Ferraz",
+    "vendedor": "Bruno Siqueira",
+    "farol": "PRETO",
+    "diasSemCompra": 120,
+    "ultimoPedido": {
+      "nunota": 50285,
+      "data": "2026-06-08",
+      "valorCentavos": 12500000
+    },
+    "pedidos12m": 12,
+    "valor12mCentavos": 98760450,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Diamantada cilíndrica 2200",
+      "Carbide esférica 2",
+      "Carbide tronco-cônica 702"
+    ]
+  },
+  {
+    "codparc": 1007,
+    "nome": "Faculdade de Ciências Odontológicas Pedra Branca",
+    "cidade": "Feira de Santana",
+    "uf": "BA",
+    "contatoNome": "Tiago Nunes",
+    "vendedor": "Luana Matos",
+    "farol": "VERMELHO",
+    "diasSemCompra": 66,
+    "ultimoPedido": {
+      "nunota": 50322,
+      "data": "2026-08-01",
+      "valorCentavos": 780015
+    },
+    "pedidos12m": 2,
+    "valor12mCentavos": 1310030,
+    "produtosFrequentes": []
+  },
+  {
+    "codparc": 1008,
+    "nome": "Centro de Ensino Odontológico Horizonte",
+    "cidade": "Recife",
+    "uf": "PE",
+    "contatoNome": "Cláudia Ribeiro",
+    "vendedor": "Luana Matos",
+    "farol": "VERMELHO",
+    "diasSemCompra": 85,
+    "ultimoPedido": {
+      "nunota": 50359,
+      "data": "2026-07-13",
+      "valorCentavos": 5600000
+    },
+    "pedidos12m": 6,
+    "valor12mCentavos": 21000000,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Kit de polimento de resina"
+    ]
+  },
+  {
+    "codparc": 1009,
+    "nome": "Instituto de Odontologia Ponta Alegre",
+    "cidade": "Natal",
+    "uf": "RN",
+    "contatoNome": "Sérgio Albuquerque",
+    "vendedor": "Luana Matos",
+    "farol": "PRETO",
+    "diasSemCompra": 112,
+    "ultimoPedido": {
+      "nunota": 50396,
+      "data": "2026-06-16",
+      "valorCentavos": 99990
+    },
+    "pedidos12m": 1,
+    "valor12mCentavos": 99990,
+    "produtosFrequentes": [
+      "Carbide 245"
+    ]
+  },
+  {
+    "codparc": 1010,
+    "nome": "Faculdade Metropolitana Sul Fluminense de Odontologia",
+    "cidade": "Volta Redonda",
+    "uf": "RJ",
+    "contatoNome": "Patrícia Gomes",
+    "vendedor": "Carlos Andrade",
+    "farol": "VERMELHO",
+    "diasSemCompra": 70,
+    "ultimoPedido": {
+      "nunota": 50433,
+      "data": "2026-07-28",
+      "valorCentavos": 2250000
+    },
+    "pedidos12m": 7,
+    "valor12mCentavos": 9875400,
+    "produtosFrequentes": [
+      "Diamantada tronco-cônica 3216",
+      "Carbide esférica 2"
+    ]
+  },
+  {
+    "codparc": 1011,
+    "nome": "Centro Universitário Planalto Central de Ciências da Saúde e Odontologia Integrada",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "contatoNome": "Maria Aparecida dos Santos Albuquerque",
+    "vendedor": "José Roberto Cavalcanti de Albuquerque Filho",
+    "farol": "PRETO",
+    "diasSemCompra": 95,
+    "ultimoPedido": {
+      "nunota": 50470,
+      "data": "2026-07-03",
+      "valorCentavos": 1430820
+    },
+    "pedidos12m": 3,
+    "valor12mCentavos": 4301640,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Carbide tronco-cônica 702"
+    ]
+  },
+  {
+    "codparc": 1012,
+    "nome": "Faculdade Odonto Norte",
+    "cidade": "Belém",
+    "uf": "PA",
+    "contatoNome": "Rui",
+    "vendedor": "Fernanda Rocha",
+    "farol": "VERMELHO",
+    "diasSemCompra": 63,
+    "ultimoPedido": {
+      "nunota": 50507,
+      "data": "2026-08-04",
+      "valorCentavos": 310450
+    },
+    "pedidos12m": 2,
+    "valor12mCentavos": 640900,
+    "produtosFrequentes": [
+      "Diamantada cilíndrica 2200"
+    ]
+  },
+  {
+    "codparc": 1013,
+    "nome": "Escola Superior de Odontologia Campos Gerais",
+    "cidade": "Ponta Grossa",
+    "uf": "PR",
+    "contatoNome": "Lívia Castro",
+    "vendedor": "Bruno Siqueira",
+    "farol": "PRETO",
+    "diasSemCompra": 118,
+    "ultimoPedido": {
+      "nunota": 50544,
+      "data": "2026-06-10",
+      "valorCentavos": 4875330
+    },
+    "pedidos12m": 5,
+    "valor12mCentavos": 18220100,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Diamantada tronco-cônica 3216",
+      "Carbide esférica 2",
+      "Carbide 245"
+    ]
+  },
+  {
+    "codparc": 1014,
+    "nome": "Faculdade de Odontologia Águas Claras",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "contatoNome": null,
+    "vendedor": "Carlos Andrade",
+    "farol": "PRETO",
+    "diasSemCompra": 99,
+    "ultimoPedido": {
+      "nunota": 50581,
+      "data": "2026-06-29",
+      "valorCentavos": 640000
+    },
+    "pedidos12m": 2,
+    "valor12mCentavos": 1280000,
+    "produtosFrequentes": [
+      "Carbide esférica 2",
+      "Mandril para peça de mão"
+    ]
+  },
+  {
+    "codparc": 1015,
+    "nome": "Instituto Universitário Mar Aberto",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "contatoNome": "Eduardo Pinheiro",
+    "vendedor": "Luana Matos",
+    "farol": "VERMELHO",
+    "diasSemCompra": 77,
+    "ultimoPedido": {
+      "nunota": 50618,
+      "data": "2026-07-21",
+      "valorCentavos": 2999999
+    },
+    "pedidos12m": 4,
+    "valor12mCentavos": 11111111,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Carbide tronco-cônica 702"
+    ]
+  },
+  {
+    "codparc": 1016,
+    "nome": "Faculdade de Saúde Três Rios",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "contatoNome": "Beatriz Lopes",
+    "vendedor": "Fernanda Rocha",
+    "farol": "VERMELHO",
+    "diasSemCompra": 88,
+    "ultimoPedido": {
+      "nunota": 50655,
+      "data": "2026-07-10",
+      "valorCentavos": 1050000
+    },
+    "pedidos12m": 3,
+    "valor12mCentavos": 3150000,
+    "produtosFrequentes": [
+      "Diamantada cilíndrica 2200",
+      "Carbide 245"
+    ]
+  },
+  {
+    "codparc": 1017,
+    "nome": "Centro Acadêmico de Odontologia Serra do Mar",
+    "cidade": "Santos",
+    "uf": "SP",
+    "contatoNome": "Gustavo Reis",
+    "vendedor": "Carlos Andrade",
+    "farol": "PRETO",
+    "diasSemCompra": 108,
+    "ultimoPedido": {
+      "nunota": 50692,
+      "data": "2026-06-20",
+      "valorCentavos": 7420600
+    },
+    "pedidos12m": 9,
+    "valor12mCentavos": 52904800,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Diamantada tronco-cônica 3216",
+      "Carbide esférica 2",
+      "Kit de polimento de resina"
+    ]
+  },
+  {
+    "codparc": 1018,
+    "nome": "Faculdade de Odontologia Bosque Alto",
+    "cidade": "Maringá",
+    "uf": "PR",
+    "contatoNome": "Helena Duarte",
+    "vendedor": "Bruno Siqueira",
+    "farol": "VERMELHO",
+    "diasSemCompra": 62,
+    "ultimoPedido": {
+      "nunota": 50729,
+      "data": "2026-08-05",
+      "valorCentavos": 125000
+    },
+    "pedidos12m": 1,
+    "valor12mCentavos": 125000,
+    "produtosFrequentes": [
+      "Carbide tronco-cônica 702"
+    ]
+  },
+  {
+    "codparc": 1019,
+    "nome": "Universidade Estadual Fictícia do Cerrado",
+    "cidade": "Palmas",
+    "uf": "TO",
+    "contatoNome": "Otávio Brandão",
+    "vendedor": "Fernanda Rocha",
+    "farol": "PRETO",
+    "diasSemCompra": 114,
+    "ultimoPedido": {
+      "nunota": 50766,
+      "data": "2026-06-14",
+      "valorCentavos": 3333300
+    },
+    "pedidos12m": 6,
+    "valor12mCentavos": 14000000,
+    "produtosFrequentes": [
+      "Diamantada esférica 1012",
+      "Carbide esférica 2"
+    ]
+  },
+  {
+    "codparc": 1020,
+    "nome": "Faculdade Odontológica Baía Serena",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "contatoNome": "Sônia Viana",
+    "vendedor": "Luana Matos",
+    "farol": "VERMELHO",
+    "diasSemCompra": 81,
+    "ultimoPedido": {
+      "nunota": 50803,
+      "data": "2026-07-17",
+      "valorCentavos": 870420
+    },
+    "pedidos12m": 3,
+    "valor12mCentavos": 2611260,
+    "produtosFrequentes": [
+      "Diamantada tronco-cônica 3216",
+      "Carbide 245"
+    ]
+  }
+]
