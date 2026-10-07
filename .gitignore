@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+coverage/
+*.log
+
+# segredos: só .env.example vai para o git
+.env
+.env.*
+!.env.example
+
+# dados locais
+.data/
