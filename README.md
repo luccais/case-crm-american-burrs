@@ -13,6 +13,26 @@ dados no CRM, e oportunidades de resgate de clientes sumiam sem que alguém perc
 leva a informação para onde o vendedor já trabalha: o farol sincronizado no CRM, um briefing
 pronto quando a conta esfria e a mensagem rascunhada para ele revisar e enviar.
 
+## Original x reconstrução
+
+O sistema original passou por duas fases: um MVP numa plataforma de CRM pronta e uma versão
+final em plataforma própria. Este repositório não reconstrói as plataformas, e sim as três
+partes que carregam a decisão de produto: a lógica do farol, o briefing com guardrails e os
+evals.
+
+| Camada | No projeto original | Neste repositório |
+|---|---|---|
+| ERP e cálculo | Sankhya sobre Oracle, com view materializada diária que calcula RFM e o Farol de Churn | Postgres simulando o ERP, `erp.fn_farol` e `classificarFarol` com teste de paridade |
+| CRM do MVP | Agendor, plataforma pronta, com todas as integrações escritas do zero em n8n, Claude Code e Gemini | não reproduzido, a lógica do farol roda direto no domínio |
+| CRM da versão final | Bubble, reunindo CRM, funil e o app de kits numa plataforma própria | não reproduzido |
+| Montagem de kit | app de kits no Bubble, que substituiu a montagem feita no Mercos | `src/domain/kit.ts`, com validação e custo por aluno em centavos inteiros |
+| Geração de texto | Gemini e Claude Code na operação | Claude em `src/infra/anthropic.ts`, com schema, regras de texto e fallback de template |
+| Qualidade | revisão do vendedor antes de qualquer envio | revisão humana obrigatória, mais a rubrica automática em `evals/` |
+| Ferramentas pagas | Ploomes eliminado, e duas ferramentas pagas consolidadas em uma plataforma própria | fora do escopo, é resultado de produto e não de código |
+
+O custo operacional caiu 60% já no MVP. A redução de 80% supõe um time comercial dedicado:
+80% é projeção, não número medido.
+
 ## Arquitetura
 
 _Em construção. O plano está em [docs/DECISOES.md](docs/DECISOES.md)._

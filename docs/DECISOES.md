@@ -140,3 +140,25 @@ valida o payload e responde no formato oficial, inclusive os erros.
 **Limitação conhecida:** na API real, uma mensagem livre só pode ser enviada dentro da janela de
 24 h após a última mensagem do cliente. Para resgatar um cliente inativo seria preciso um template
 aprovado. O mock só registra um aviso, e o tema fica registrado aqui como ponto de atenção.
+
+## 11. Validar no Agendor, uma plataforma pronta, antes de construir no Bubble
+
+**Escolha:** o MVP rodou no Agendor, uma plataforma de CRM pronta, com todas as integrações
+escritas do zero em n8n, Claude Code e Gemini. Só depois de a hipótese se confirmar o CRM, o
+funil e o app de kits foram para o Bubble, numa plataforma própria.
+
+**Contexto:** a hipótese a testar era de comportamento, não de tecnologia: o vendedor usaria um
+farol que chega pronto, com o briefing escrito e a mensagem rascunhada? Construir a plataforma
+primeiro responderia essa pergunta meses depois, e com o custo já gasto. O Agendor dava cadastro,
+funil e permissões no primeiro dia, o que deixava o esforço todo na parte que ainda não existia
+em lugar nenhum: a sincronia do farol vinda do ERP e a geração do briefing.
+
+**Alternativa descartada:** comprar as integrações pagas do Agendor. Resolveria a sincronia mais
+rápido, mas amarrava a validação a um fornecedor justamente na parte que era o diferencial, e o
+conhecimento da integração ficaria fora de casa. Escrevendo em n8n, cada peça testada no MVP
+seguiu valendo depois da migração, porque o orquestrador não mudou junto com a plataforma.
+
+**Consequência:** o MVP conviveu com os limites de uma plataforma de terceiros, e parte do
+trabalho de tela foi refeita no Bubble. Em troca, o Ploomes foi eliminado e duas ferramentas
+pagas viraram uma plataforma própria, com o custo operacional caindo 60% já no MVP. A redução
+de 80% supõe um time comercial dedicado: 80% é projeção, não número medido.
